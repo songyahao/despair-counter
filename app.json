@@ -5,6 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -13,6 +16,11 @@
     },
     "android": {
       "package": "com.despaircounter.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f6962b89-73ac-4770-81b0-d722f2b705f3"
+      }
     }
   }
 }
