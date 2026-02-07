@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "绝望计数",
+    "slug": "despair-counter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.despaircounter.app"
+    }
+  }
+}
