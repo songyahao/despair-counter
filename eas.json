@@ -11,8 +11,12 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true,
-      "gradleCommand": ":app:assembleRelease"
+      "autoIncrement": true
+    },
+    "build": {
+      "production": {
+        "gradleCommand": ":app:assembleRelease"
+      }
     }
   },
   "submit": {
